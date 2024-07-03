@@ -17,7 +17,7 @@
 */
 
 #include <boost/endian/conversion.hpp>
-#include <aasdk_proto/ControlMessageIdsEnum.pb.h>
+#include <../aasdk_proto/ControlMessageIdsEnum.pb.h>
 #include <f1x/aasdk/Version.hpp>
 #include <f1x/aasdk/IO/PromiseLink.hpp>
 #include <f1x/aasdk/Channel/Control/ControlServiceChannel.hpp>

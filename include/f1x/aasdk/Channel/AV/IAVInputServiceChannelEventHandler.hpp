@@ -18,10 +18,10 @@
 
 #pragma once
 
-#include <aasdk_proto/AVChannelSetupRequestMessage.pb.h>
-#include <aasdk_proto/AVMediaAckIndicationMessage.pb.h>
-#include <aasdk_proto/AVInputOpenRequestMessage.pb.h>
-#include <aasdk_proto/ChannelOpenRequestMessage.pb.h>
+#include <../aasdk_proto/AVChannelSetupRequestMessage.pb.h>
+#include <../aasdk_proto/AVMediaAckIndicationMessage.pb.h>
+#include <../aasdk_proto/AVInputOpenRequestMessage.pb.h>
+#include <../aasdk_proto/ChannelOpenRequestMessage.pb.h>
 #include <f1x/aasdk/Error/Error.hpp>
 
 namespace f1x

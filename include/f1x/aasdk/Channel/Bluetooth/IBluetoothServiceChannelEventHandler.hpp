@@ -18,8 +18,8 @@
 
 #pragma once
 
-#include <aasdk_proto/BluetoothPairingRequestMessage.pb.h>
-#include <aasdk_proto/ChannelOpenRequestMessage.pb.h>
+#include <../aasdk_proto/BluetoothPairingRequestMessage.pb.h>
+#include <../aasdk_proto/ChannelOpenRequestMessage.pb.h>
 #include <f1x/aasdk/Error/Error.hpp>
 
 namespace f1x

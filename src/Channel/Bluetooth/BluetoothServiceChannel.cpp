@@ -16,9 +16,9 @@
 *  along with aasdk. If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include <aasdk_proto/ControlMessageIdsEnum.pb.h>
-#include <aasdk_proto/BluetoothChannelMessageIdsEnum.pb.h>
-#include <aasdk_proto/BluetoothPairingRequestMessage.pb.h>
+#include <../aasdk_proto/ControlMessageIdsEnum.pb.h>
+#include <../aasdk_proto/BluetoothChannelMessageIdsEnum.pb.h>
+#include <../aasdk_proto/BluetoothPairingRequestMessage.pb.h>
 #include <f1x/aasdk/Channel/Bluetooth/IBluetoothServiceChannelEventHandler.hpp>
 #include <f1x/aasdk/Channel/Bluetooth/BluetoothServiceChannel.hpp>
 #include <f1x/aasdk/Common/Log.hpp>

@@ -19,8 +19,8 @@
 #pragma once
 
 #include <stdint.h>
-#include <aasdk_proto/ChannelOpenRequestMessage.pb.h>
-#include <aasdk_proto/BindingRequestMessage.pb.h>
+#include <../aasdk_proto/ChannelOpenRequestMessage.pb.h>
+#include <../aasdk_proto/BindingRequestMessage.pb.h>
 
 namespace f1x
 {

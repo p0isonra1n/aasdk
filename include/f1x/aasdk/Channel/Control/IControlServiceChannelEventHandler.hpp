@@ -20,13 +20,13 @@
 
 #include <f1x/aasdk/Error/Error.hpp>
 #include <f1x/aasdk/Common/Data.hpp>
-#include <aasdk_proto/ShutdownRequestMessage.pb.h>
-#include <aasdk_proto/ShutdownResponseMessage.pb.h>
-#include <aasdk_proto/VersionResponseStatusEnum.pb.h>
-#include <aasdk_proto/ServiceDiscoveryRequestMessage.pb.h>
-#include <aasdk_proto/AudioFocusRequestMessage.pb.h>
-#include <aasdk_proto/NavigationFocusRequestMessage.pb.h>
-#include <aasdk_proto/PingResponseMessage.pb.h>
+#include <../aasdk_proto/ShutdownRequestMessage.pb.h>
+#include <../aasdk_proto/ShutdownResponseMessage.pb.h>
+#include <../aasdk_proto/VersionResponseStatusEnum.pb.h>
+#include <../aasdk_proto/ServiceDiscoveryRequestMessage.pb.h>
+#include <../aasdk_proto/AudioFocusRequestMessage.pb.h>
+#include <../aasdk_proto/NavigationFocusRequestMessage.pb.h>
+#include <../aasdk_proto/PingResponseMessage.pb.h>
 
 namespace f1x
 {

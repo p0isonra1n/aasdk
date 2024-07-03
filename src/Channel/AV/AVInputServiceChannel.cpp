@@ -16,8 +16,8 @@
 *  along with aasdk. If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include <aasdk_proto/ControlMessageIdsEnum.pb.h>
-#include <aasdk_proto/AVChannelMessageIdsEnum.pb.h>
+#include <../aasdk_proto/ControlMessageIdsEnum.pb.h>
+#include <../aasdk_proto/AVChannelMessageIdsEnum.pb.h>
 #include <f1x/aasdk/Messenger/Timestamp.hpp>
 #include <f1x/aasdk/Channel/AV/IAVInputServiceChannelEventHandler.hpp>
 #include <f1x/aasdk/Channel/AV/AVInputServiceChannel.hpp>

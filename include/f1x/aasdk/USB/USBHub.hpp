@@ -20,6 +20,7 @@
 
 #include <boost/asio.hpp>
 #include <list>
+#include <libusb.h>
 #include <f1x/aasdk/USB/IUSBHub.hpp>
 #include <f1x/aasdk/USB/IAccessoryModeQueryChainFactory.hpp>
 
@@ -32,7 +33,7 @@ namespace usb
 
 class IUSBWrapper;
 
-class USBHub: public IUSBHub, public std::enable_shared_from_this<USBHub>, boost::noncopyable
+class USBHub: public IUSBHub, public std::enable_shared_from_this<USBHub>, boost::asio::noncopyable
 {
 public:
     USBHub(IUSBWrapper& usbWrapper, boost::asio::io_service& ioService, IAccessoryModeQueryChainFactory& queryChainFactory);

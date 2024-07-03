@@ -30,6 +30,7 @@ namespace channel
 namespace bluetooth
 {
 
+
 class BluetoothServiceChannel: public IBluetoothServiceChannel, public ServiceChannel, public std::enable_shared_from_this<BluetoothServiceChannel>
 {
 public:

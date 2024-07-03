@@ -40,7 +40,6 @@ SSLWrapper::SSLWrapper()
 
 SSLWrapper::~SSLWrapper()
 {
-    FIPS_mode_set(0);
     ENGINE_cleanup();
     CONF_modules_unload(1);
     EVP_cleanup();

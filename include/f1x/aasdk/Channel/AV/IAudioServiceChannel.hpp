@@ -19,9 +19,9 @@
 #pragma once
 
 #include <memory>
-#include <aasdk_proto/AVChannelSetupResponseMessage.pb.h>
-#include <aasdk_proto/AVMediaAckIndicationMessage.pb.h>
-#include <aasdk_proto/ChannelOpenResponseMessage.pb.h>
+#include <../aasdk_proto/AVChannelSetupResponseMessage.pb.h>
+#include <../aasdk_proto/AVMediaAckIndicationMessage.pb.h>
+#include <../aasdk_proto/ChannelOpenResponseMessage.pb.h>
 #include <f1x/aasdk/Messenger/ChannelId.hpp>
 #include <f1x/aasdk/Channel/Promise.hpp>
 #include <f1x/aasdk/Channel/AV/IAudioServiceChannelEventHandler.hpp>

@@ -18,14 +18,14 @@
 
 #pragma once
 
-#include <aasdk_proto/ShutdownRequestMessage.pb.h>
-#include <aasdk_proto/ShutdownResponseMessage.pb.h>
-#include <aasdk_proto/AuthCompleteIndicationMessage.pb.h>
-#include <aasdk_proto/ServiceDiscoveryResponseMessage.pb.h>
-#include <aasdk_proto/AudioFocusResponseMessage.pb.h>
-#include <aasdk_proto/NavigationFocusResponseMessage.pb.h>
-#include <aasdk_proto/StatusEnum.pb.h>
-#include <aasdk_proto/PingRequestMessage.pb.h>
+#include <../aasdk_proto/ShutdownRequestMessage.pb.h>
+#include <../aasdk_proto/ShutdownResponseMessage.pb.h>
+#include <../aasdk_proto/AuthCompleteIndicationMessage.pb.h>
+#include <../aasdk_proto/ServiceDiscoveryResponseMessage.pb.h>
+#include <../aasdk_proto/AudioFocusResponseMessage.pb.h>
+#include <../aasdk_proto/NavigationFocusResponseMessage.pb.h>
+#include <../aasdk_proto/StatusEnum.pb.h>
+#include <../aasdk_proto/PingRequestMessage.pb.h>
 #include <f1x/aasdk/Common/Data.hpp>
 #include <f1x/aasdk/Channel/Promise.hpp>
 #include <f1x/aasdk/Channel/Control/IControlServiceChannelEventHandler.hpp>

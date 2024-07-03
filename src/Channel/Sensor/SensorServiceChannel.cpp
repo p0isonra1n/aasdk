@@ -16,9 +16,9 @@
 *  along with aasdk. If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include <aasdk_proto/ControlMessageIdsEnum.pb.h>
-#include <aasdk_proto/ControlMessageIdsEnum.pb.h>
-#include <aasdk_proto/SensorChannelMessageIdsEnum.pb.h>
+#include <../aasdk_proto/ControlMessageIdsEnum.pb.h>
+#include <../aasdk_proto/ControlMessageIdsEnum.pb.h>
+#include <../aasdk_proto/SensorChannelMessageIdsEnum.pb.h>
 #include <f1x/aasdk/Channel/Sensor/ISensorServiceChannelEventHandler.hpp>
 #include <f1x/aasdk/Channel/Sensor/SensorServiceChannel.hpp>
 #include <f1x/aasdk/Common/Log.hpp>

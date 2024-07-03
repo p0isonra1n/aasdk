@@ -18,11 +18,11 @@
 
 #pragma once
 
-#include <aasdk_proto/AVChannelSetupRequestMessage.pb.h>
-#include <aasdk_proto/AVChannelStartIndicationMessage.pb.h>
-#include <aasdk_proto/ChannelOpenRequestMessage.pb.h>
-#include <aasdk_proto/VideoFocusRequestMessage.pb.h>
-#include <aasdk_proto/AVChannelStopIndicationMessage.pb.h>
+#include <../aasdk_proto/AVChannelSetupRequestMessage.pb.h>
+#include <../aasdk_proto/AVChannelStartIndicationMessage.pb.h>
+#include <../aasdk_proto/ChannelOpenRequestMessage.pb.h>
+#include <../aasdk_proto/VideoFocusRequestMessage.pb.h>
+#include <../aasdk_proto/AVChannelStopIndicationMessage.pb.h>
 #include <f1x/aasdk/Messenger/Timestamp.hpp>
 #include <f1x/aasdk/Common/Data.hpp>
 #include <f1x/aasdk/Error/Error.hpp>
